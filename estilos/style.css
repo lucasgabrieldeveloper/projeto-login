@@ -55,3 +55,9 @@ section#login > div#formulario{
     display: block;
     padding: 10px;
 }
+
+@media screen and (max-width: 600px) and (orientation: landscape){
+    section#login{
+        height: 90vh;
+    }
+}
