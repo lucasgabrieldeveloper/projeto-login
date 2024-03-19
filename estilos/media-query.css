@@ -1,12 +1,6 @@
 @charset "UTF-8";   
 
-@media screen and (max-width: 767px) and (orientation: landscape){
-    section#login{
-        height: 80vh;
-    }
-}
-
-@media screen and (min-width: 768px) /* and (max-width: 1024px) */{   
+@media screen and (min-width: 768px) and (max-width: 1024px){   
     body{
         background-image: linear-gradient( to top, #2541AE, #4B87F9);
     }
@@ -28,6 +22,7 @@
 
     div#formulario > p{
         font-size: 1.2em;
+        margin: 10px 0px;
     }
 }
 
@@ -60,5 +55,6 @@
 
     div#formulario > p{
         font-size: 1.2em;
+        margin: 10px 0px;
     }
 }
