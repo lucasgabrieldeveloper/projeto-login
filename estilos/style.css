@@ -73,10 +73,9 @@ form > div.campo{
     background-color: var(--cor5);
     display: block;
     width: 100%;
-    height: 45px;
+    height: 47px;
     border-radius: 10px;
     margin: 5px 0px;
-    border: 3px solid var(--cor5);
 }
 
 div.campo > label{
@@ -88,19 +87,20 @@ div.campo > span{
     font-size: 2em;
     width: 40px;
     padding: 5px;
+    border-radius: 10px;
 }
 
 div.campo > input{
     background-color: var(--cor9);
     font-size: 1em;
-    width: calc(100% - 45px);
-    height: 100%;
+    width: calc(100% - 46px);
+    height: 44px;
     border: none;
     outline: none;
     border-radius: 10px;
     padding: 4px;
     color: var(--cor2);
-    transform: translateY(-10px);
+    transform: translateY(-8px);
 }
 
 div.campo > input::placeholder{
@@ -134,7 +134,7 @@ form > a.botao {
     width: 100%;
     height: 40px;
     margin-top: 7px;
-    padding-top: 5px;
+    padding-top: 9px;
     background-color: var(--cor1);
     color: var(--cor2);
     border: none;
