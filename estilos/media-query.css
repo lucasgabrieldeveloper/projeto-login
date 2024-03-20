@@ -1,6 +1,6 @@
 @charset "UTF-8";   
 
-@media screen and (min-width: 768px) and (max-width: 1024px){   
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){   
     body{
         background-image: linear-gradient( to top, #2541AE, #4B87F9);
     }
@@ -26,7 +26,7 @@
     }
 
     div.campo > input{
-        transform: translateY(-7px);
+        transform: translateY(-6px);
     }
 }
 
@@ -63,7 +63,7 @@
     }
 
     div.campo > input{
-        transform: translateY(-7px);
+        transform: translateY(-6px);
         height: 43px;
     }
 }
