@@ -1,0 +1,40 @@
+div.campo{
+    background-color: #3C3E67;
+    width: 249px;
+    height: 44px;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 10px;
+
+
+    transform: translate(-50%, -50%);
+}
+
+div.campo > span.material-symbols-outlined{
+    background-color: rgb(101, 101, 101);
+    font-size: 30px;
+    width: 40px;
+    height: 37px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #3C3E67;
+    color: aliceblue;
+}
+
+div.campo > input{ 
+    width: calc(100% - 49px);
+    height: 41px;
+    background-color: #4159b8;
+    border-radius: 10px 10px 10px 10px;
+
+    border: none;
+    outline: none;
+    transform: translateY(-10px);
+}
+
+::placeholder{
+    color: aliceblue;
+}
